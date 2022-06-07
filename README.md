@@ -33,7 +33,7 @@ Users should be able to:
 ![desktop screenshot](./images/desktop-screenshot.png)
 desktop screenshot pictured above
 
-![mobile screenshot](./images/mobile-screenshot.png)
+![mobile screenshot](./images/mobile-screenshot.jpg)
 mobile screenshot pictured above
 
 ### Links

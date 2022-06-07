@@ -14,11 +14,13 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+This is another newbie level challenge to help me get used to frontendmentor.io.
+The styling guide was a bit vague but it's a fun challenge.
 
 ### The challenge
 
@@ -28,20 +30,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop screenshot](./images/desktop-screenshot.png)
+desktop screenshot pictured above
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![mobile screenshot](./images/mobile-screenshot.png)
+mobile screenshot pictured above
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://vilinh27.github.io/orderSummaryComponent/)
 
 ## My process
 
@@ -50,45 +47,39 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I still have issues with CSS details that involve centering html components vertically. Messing with margins tends to be tedious for me to begin with.
+
+I did get to review how adding background images worked and their properties though. That was nice.
+
+Overall, it's good to review foundational html and css stuff. I don't have this quite there, but I got like 99% of the original design, which is still a win for me.
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(223, 47%, 23%);
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main {
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I'll look for more challenges to review CSS and further my knowledge into javascript and more complex web dev concepts.
 
 ### Useful resources
 
@@ -97,18 +88,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [background image css](https://www.w3schools.com/cssref/pr_background-image.asp) - Don't use background image in styling often so this helped.
 - [repeating background property](https://www.w3schools.com/cssref/pr_background-repeat.asp)-had a repeat background issue
 - [background-image width](https://www.w3schools.com/howto/howto_css_full_page.asp)-background image provided didn't cover whole width so this helped with that
-- [Example]() -
 
 ## Author
 
-- Website - [Vi-Linh Nguyen](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Vi-Linh Nguyen](https://vilinh27.github.io/)
+- Frontend Mentor - [@ViLinh27](https://www.frontendmentor.io/profile/ViLinh27)
+- Twitter - [@vilinh27](https://twitter.com/vilinh27)

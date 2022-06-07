@@ -37,6 +37,9 @@ p {
   height: 48px;
   border-radius: 12px;
 }
+.btn-primary:hover {
+  background-color: hsl(224, 23%, 55%);
+}
 .btn-secondary {
   background-color: white;
   color: grey;
@@ -60,7 +63,10 @@ p {
   text-align: center;
 }
 .plan {
+  margin: 5% 10%;
   background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  border-radius: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -76,7 +82,7 @@ p {
 }
 .music-button,
 .annual-plan {
-  margin: 8px;
+  margin: 0 8px;
 }
 .attribution {
   font-size: 11px;

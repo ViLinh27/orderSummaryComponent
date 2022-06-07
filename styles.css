@@ -104,6 +104,13 @@ p {
   body {
     margin: 80px auto;
   }
+}
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
   h1 {
     font-size: 20px;
   }

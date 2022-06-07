@@ -1,8 +1,9 @@
 /*universal*/
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
 body {
   background-color: hsl(225, 100%, 94%);
-  font-family: Arial, Helvetica, sans-serif;
-  color: hsl(207, 96%, 10%);
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(223, 47%, 23%);
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -28,13 +29,17 @@ p {
 .links {
   color: hsl(245, 75%, 52%);
 }
+.links:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
 
 /*buttons*/
 .btn-primary {
   background-color: hsl(245, 75%, 52%);
   color: white;
   width: 350px;
-  height: 48px;
+  height: 55px;
   border-radius: 12px;
 }
 .btn-primary:hover {
@@ -57,7 +62,11 @@ p {
   width: 450px;
   height: 610px;
 }
-.text,
+.text {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
 .payment-btn,
 .cancel-order {
   text-align: center;
@@ -84,7 +93,27 @@ p {
 .annual-plan {
   margin: 0 8px;
 }
+.cancel-order {
+  margin-bottom: 8px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
+}
+@media screen and (max-width: 1440px) {
+  body {
+    margin: 80px auto;
+  }
+  .card {
+    margin: 32px auto;
+    width: 300px;
+    height: 550px;
+  }
+  #hero {
+    width: 300px;
+  }
+  .btn-primary,
+  .btn-secondary {
+    width: 270px;
+  }
 }

@@ -1,0 +1,63 @@
+/*universal*/
+body {
+  background-color: hsl(225, 100%, 94%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(228, 45%, 44%);
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main {
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+img {
+  border-radius: 24px 24px 0 0;
+}
+p {
+  font-size: 16px;
+}
+
+/*buttons*/
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 350px;
+  height: 48px;
+  border-radius: 12px;
+}
+.btn-secondary {
+  background-color: white;
+  color: grey;
+  width: 350px;
+  height: 48px;
+  border-radius: 12px;
+  border: none;
+}
+
+/*card*/
+.card {
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 24px;
+  width: 450px;
+  height: 610px;
+  margin: auto auto;
+}
+.plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}

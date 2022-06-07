@@ -5,33 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="./styles.css">
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Order Summary
+  <div clas="main">
+    <div class="card">
+      <div class="hero-image">
+        <img src="./images/illustration-hero.svg" alt="hero image"/>
+      </div>
+      <div class="text">
+        <div class="header">
+          <!--order summary-->
+          <h1>Order Summary</h1>
+        </div>
+        <div class="para">
+          <!--you can now...-->
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+          </p>
+        </div>
+      </div>
+      <!--end of text-->
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <div class="plan">
+        <div class="music-button">
+          <!--music note button-->
+          <img src="./images/icon-music.svg" alt="music icon" />
+        </div>
+        <div class="annual-plan">
+          <!--annual plan 59.99/year-->
+          <h3>Annual Plan</h3>
+          <p>$59.99/year</p>
+        </div>
+        <div class="change-btn">
+          <!--change-->
+          <a href="#" class="links">Change</a>
+        </div>
+      </div>
+      <!--end of plan-->
 
-  Annual Plan
-  $59.99/year
+      <div class="payment-btn">
+        <!--proceed to payment-->
+        <button class="btn-primary">Proceed to Payment</button>
+      </div>
 
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
+      <div class="cancel-order">
+        <!--cancel order-->
+        <button class="btn-secondary">Cancel Order</button>
+      </div>
+    </div>
+    <!--end of card-->
+  </div>
+  <!--end of main-->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Vi-Linh Nguyen</a>.
   </div>
 </body>
 </html>
